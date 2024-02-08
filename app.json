@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "helloWorld-Native",
-    "slug": "helloWorld-Native",
+    "slug": "hello-world",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b831f144-f381-4d2a-b285-5da6ae62fa75"
+      }
+    },
+    "owner": "mauriciosor"
   }
 }
